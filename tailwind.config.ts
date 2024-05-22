@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       fontFamily: {
         logo: ["Oleo Script", "system-ui"],
-        secondary: ["Noto Serif", "serif"],
+        secondary: ["Poetsen One", "sans-serif"],
         primary: ["Poppins", "sans-serif"],
       },
       backgroundImage: {

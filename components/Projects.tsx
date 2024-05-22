@@ -16,28 +16,28 @@ const Projects = () => {
         title="E-commerce Website"
         tech1="Tailwind"
         tech2="NextJS"
-        tech3="TypeScript" 
+        tech3="TypeScript"
         image={"/images/p1.png"}
       />
       <ProjectCard
         title="Portfolio Website"
         tech1="Tailwind"
         tech2="NextJS"
-        tech3="TypeScript" 
+        tech3="TypeScript"
         image={"/images/p2.png"}
       />
       <ProjectCard
         title="Food Delivery Website"
         tech1="RTK"
         tech2="NextJS"
-        tech3="TypeScript" 
+        tech3="TypeScript"
         image={"/images/p3.png"}
       />
       <ProjectCard
         title="Movie Website"
         tech1="React"
         tech2="Router"
-        tech3="Tailwind" 
+        tech3="Tailwind"
         image={"/images/p4.png"}
       />
     </div>

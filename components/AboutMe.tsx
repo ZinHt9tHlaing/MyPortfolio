@@ -10,7 +10,8 @@ const AboutMe = () => {
           <p className="heading-mini">My Skills</p>
           <h1 className="heading-primary">
             Let's Explore Popular{" "}
-            <span className=" text-yellow-300 font-secondary">Skills</span> & Experiences
+            <span className=" text-yellow-300 font-secondary">Skills</span> &
+            Experiences
           </h1>
           <p className=" text-lg mb-6 text-white opacity-70 mt-6">
             Lorem ipsum dolor, s it amet consectetur adipisicing elit. Vero
@@ -27,48 +28,76 @@ const AboutMe = () => {
         </div>
         <div className="col-span-4">
           <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-3 xl:grid-cols-4 gap-4 items-center">
-            <div>
+            <div data-aos="flip-left" data-aos-anchorPlacement="top-center">
               <SkillCard title="HTML5" image="/images/html.svg" percent="90%" />
             </div>
-            <div>
+            <div
+              data-aos="flip-left"
+              data-aos-anchorPlacement="top-center"
+              data-aos-delay="200"
+            >
               <SkillCard title="CSS" image="/images/css.svg" percent="80%" />
             </div>
-            <div>
+            <div
+              data-aos="flip-left"
+              data-aos-anchorPlacement="top-center"
+              data-aos-delay="400"
+            >
               <SkillCard
                 title="Tailwind CSS"
                 image="/images/tw.svg"
                 percent="85%"
               />
             </div>
-            <div>
+            <div
+              data-aos="flip-left"
+              data-aos-anchorPlacement="top-center"
+              data-aos-delay="600"
+            >
               <SkillCard
                 title="JavaScript"
                 image="/images/js.svg"
                 percent="77%"
               />
             </div>
-            <div>
+            <div
+              data-aos="flip-left"
+              data-aos-anchorPlacement="top-center"
+              data-aos-delay="800"
+            >
               <SkillCard
                 title="TypeScript"
                 image="/images/ts.svg"
                 percent="67%"
               />
             </div>
-            <div>
+            <div
+              data-aos="flip-left"
+              data-aos-anchorPlacement="top-center"
+              data-aos-delay="1000"
+            >
               <SkillCard
                 title="React"
                 image="/images/react.svg"
                 percent="88%"
               />
             </div>
-            <div>
+            <div
+              data-aos="flip-left"
+              data-aos-anchorPlacement="top-center"
+              data-aos-delay="1200"
+            >
               <SkillCard
                 title="NextJS"
                 image="/images/next.svg"
                 percent="80%"
               />
             </div>
-            <div>
+            <div
+              data-aos="flip-left"
+              data-aos-anchorPlacement="top-center"
+              data-aos-delay="1400"
+            >
               <SkillCard
                 title="PostgreSQL"
                 image="/images/postgresql.svg"

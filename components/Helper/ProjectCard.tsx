@@ -13,7 +13,11 @@ interface Props {
 const ProjectCard = ({ title, image, tech1, tech2, tech3 }: Props) => {
   return (
     <div className=" grid w-[80%] mx-auto pt-[5rem] grid-cols-1 lg:grid-cols-2 gap-10 text-center">
-      <div className="p-4 rounded-xl relative cursor-pointer hover:-rotate-6 transform transition-all duration-200 bg-gray-800 shadow-md active:scale-95 active:duration-200">
+      <div
+        data-aos="fade-right"
+        data-aos-delay="50"
+        className="p-4 rounded-xl relative cursor-pointer hover:-rotate-6 transform transition-all duration-1 bg-gray-800 shadow-md active:scale-95 active:duration-200"
+      >
         <Image
           src={`${image}`}
           alt="title"
@@ -22,7 +26,7 @@ const ProjectCard = ({ title, image, tech1, tech2, tech3 }: Props) => {
           className=" object-contain rounded-xl shadow-md mx-auto"
         />
       </div>
-      <div>
+      <div data-aos="fade-left" data-aos-delay="50">
         <h1 className=" text-[25px] text-white">{title}</h1>
         <p className=" text-white opacity-65 text-[15px] mt-4">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ad
